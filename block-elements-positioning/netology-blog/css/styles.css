@@ -1,6 +1,21 @@
+.news {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
 .card {
   box-sizing: border-box;
   width: 320px;
   padding: 50px 40px;
   border: 2px solid #dfdee8;
+}
+
+.card:nth-child(3n+2) {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.card:nth-child(n+4) {
+  margin-top: 30px;
 }
