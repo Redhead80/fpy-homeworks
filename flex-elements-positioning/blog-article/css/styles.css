@@ -1,34 +1,33 @@
-
 body {
-  margin: 0;
-  font-family: arial, sans-serif;
+	margin: 0;
+	font-family: arial, sans-serif;
 }
 
 .content {
-  width: 760px;
-  margin-right: auto;
-  margin-left: auto;
+	width: 760px;
+	margin-right: auto;
+	margin-left: auto;
 }
 
 h1 {
-  font-size: 32px;
+	font-size: 32px;
 }
 
 a {
-  color: #2980b9;
-  text-decoration: none;
+	color: #2980b9;
+	text-decoration: none;
 }
 
 p {
-  line-height: 24px;
+	line-height: 24px;
 }
 
-.page h1 {
-  font-size: 12px;
+.page > h1 {
+	font-size: 12px;
 }
 
-.page a {
-  text-decoration: underline;
-  color: #f00000;
+.page > a {
+	text-decoration: underline;
+	color: #f00000;
 }
 
