@@ -12,6 +12,10 @@
   height: 55px;
   border-radius: 25px;
   background-color: #ffffff;
+  background-image: url(https://netology-code.github.io/html-2-homeworks/form-elements/search-field/img/search.svg);
+  background-repeat:no-repeat;
+  background-size: 25px;
+  background-position: left 20px center;
 }
 
 .field:focus {
