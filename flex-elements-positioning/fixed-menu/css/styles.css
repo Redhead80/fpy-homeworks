@@ -4,10 +4,12 @@
   width: 250px;
   padding: 70px 30px;
   font-size: 14px;
+  position: fixed;
 }
 
 .content {
   box-sizing: border-box;
   padding: 50px 80px;
   width: 1024px;
+  padding-left: 250px;
 }
