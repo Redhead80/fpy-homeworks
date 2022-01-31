@@ -5,3 +5,26 @@
 .post__name {
   font-size: 1.5em;
 }
+
+.post__content {
+  align-items: center;
+  justify-content: center;
+}
+
+@media (min-width: 481px) {
+  .section__title {
+    font-size: 24px;
+  }
+  .post__name {
+    font-size: 21px;
+  }
+}
+
+@media (max-width: 480px) {
+  .section__title {
+    font-size: 20px;
+  }
+  .post__name {
+    font-size: 18px;
+  }
+}
