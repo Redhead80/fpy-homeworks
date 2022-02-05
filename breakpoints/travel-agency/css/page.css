@@ -1,43 +1,50 @@
-.container {
-  max-width: 1920px;
-  margin-left: auto;
-  margin-right: auto;
-  
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.card {
-  font-size: 20px;
-}
-
-@media (min-width: 1300px) {
-  
-  .card {
-    width: 20%;
-    font-size: 16px;
+@media (min-width: 480px) {
+  .container {
+    display: flex;
+    flex-wrap: wrap;
   }
 }
 
-@media (min-width: 960px) and (max-width: 1299px) {
-  
-  .card {
-    width: 25%;
-    font-size: 17px;
-  }
-}
-
-@media (min-width: 480px) and (max-width: 959px) {
-  
+@media (min-width: 480px) and (max-width: 960px) {
   .card {
     width: 50%;
-    font-size: 19px;
   }
 }
 
-@media (max-width: 479px) {
-  
-  .card {
+@media (min-width: 480px) and (max-width: 640px) {
+  .card:nth-child(3n + 3) {
     width: 100%;
+  }
+}
+
+@media (min-width: 641px) and (max-width: 960px) {
+  .card:nth-child(5n + 3),
+  .card:nth-child(5n + 4),
+  .card:nth-child(5n + 5) {
+    width: 33.333%;
+  }
+}
+
+@media (min-width: 961px) and (max-width: 1280px) {
+  .card {
+    flex-basis: 25%;
+  }
+  .card:nth-child(-6n + 11),
+  .card:nth-child(-6n + 12) {
+    flex-basis: 50%;
+  }
+}
+
+@media (min-width: 1281px) {
+  .card {
+    width: 20%;
+  }
+  .card:nth-child(8n + 6),
+  .card:nth-child(8n + 7),
+  .card:nth-child(8n + 8) {
+    width: 33.333%;
+  }
+  .card:nth-child(n + 17) {
+    width: 25%;
   }
 }
